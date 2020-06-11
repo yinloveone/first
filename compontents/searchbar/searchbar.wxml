@@ -1,0 +1,8 @@
+<!--compontents/searchbar/searchbar.wxml-->
+<view class="searchbar">
+ <navigator wx:if="{{isnavigator}}" url="/pages/search/search.wxml" class="search-navigator"></navigator> 
+<view wx:else class="search-input-group">
+<input class="search-input"></input>
+</view>
+</view>
+

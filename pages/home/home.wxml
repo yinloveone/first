@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+<scroll-view class="scroll-view">
+<view class="scroll-item bg-red"></view>
+<view class="scroll-item bg-blue"></view>
+<view class="scroll-item bg-yollow"></view>
+</scroll-view>
